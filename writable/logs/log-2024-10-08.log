@@ -201,3 +201,31 @@ in APPPATH\Views\auth\login_frm.php on line 1.
  7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 16:58:57 --> ParseError: syntax error, unexpected token "endfor", expecting end of file
+[Method: GET, Route: main]
+in APPPATH\Views\main\home.php on line 7.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('main/home', [], true)
+ 3 APPPATH\Controllers\Main.php(12): view('main/home')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-08 17:27:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/partes/side_menu.php"
+[Method: GET, Route: main]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/partes/side_menu.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('layout/partes/side_menu', null, true)
+ 3 APPPATH\Views\main\home.php(13): CodeIgniter\View\View->include('layout/partes/side_menu')
+ 4 SYSTEMPATH\View\View.php(234): include('X:\\GED\\laragon\\www\\LarCI4\\app\\Views\\main\\home.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('main/home', [], true)
+ 7 APPPATH\Controllers\Main.php(12): view('main/home')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

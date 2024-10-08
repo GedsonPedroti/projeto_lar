@@ -96,4 +96,4 @@ define('EVENT_PRIORITY_HIGH', 10);
 /**
  *  Definição das minhas constantes
  */
-define('APP_NAME',  'Sistema Controle Lar');
+define('APP_NAME',  'Sis. Controle Lar');
