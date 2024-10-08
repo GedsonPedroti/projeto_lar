@@ -1,0 +1,9 @@
+CRITICAL - 2024-10-08 10:49:36 --> TypeError: Unsupported operand types: string + string
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(877): CodeIgniter\Router\RouteCollection->{closure}()
+ 2 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
